@@ -1,3 +1,4 @@
+// @ts-nocheck
 // let bigArr = [];
 // let number = 100;
 //
@@ -19,8 +20,8 @@
 // console.log(o.o.o.o.o.o.o);
 
 function f() {
-  console.log("123132");
-  return f;
+  console.log('123132')
+  return f
 }
 
 // let string = "f";
@@ -31,12 +32,12 @@ function f() {
 
 let range = function* (n) {
   for (let i = 0; i < n; i++) {
-    yield i;
+    yield i
   }
-};
+}
 
-let print = console.log;
+let print = console.log
 
 for (let i of range(5)) {
-  print(i);
+  print(i)
 }

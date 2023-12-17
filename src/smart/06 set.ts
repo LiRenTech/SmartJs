@@ -1,3 +1,4 @@
+// @ts-nocheck
 // BV11Y4y1f7ZK
 
 // set的基本用法
