@@ -19,8 +19,8 @@
 // console.log(o.o.o.o.o.o.o);
 
 function f() {
-    console.log("123132");
-    return f;
+  console.log("123132");
+  return f;
 }
 
 // let string = "f";
@@ -30,14 +30,13 @@ function f() {
 // eval(string);
 
 let range = function* (n) {
-    for (let i = 0; i < n; i++) {
-        yield i;
-    }
-}
+  for (let i = 0; i < n; i++) {
+    yield i;
+  }
+};
 
 let print = console.log;
 
-for (let i of range(5))                       {
-    print(i)                                    ;
-                                                }
-
+for (let i of range(5)) {
+  print(i);
+}
