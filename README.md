@@ -1,22 +1,13 @@
-# 📕 SmartJs
+# SmartJs
 
-JS 小技巧系列的代码仓库
+这里有很多实用的 JavaScript 代码片段和迷惑行为
 
-## 🔗 相关链接
+## 给贡献者看
 
-[👉 B 站视频](https://space.bilibili.com/480804525/channel/collectiondetail?sid=787246)
+如果你想要贡献一个小技巧或者迷惑行为，请运行命令行工具 `pnpm new`，然后按照提示，编写好代码后发布 PR
 
-[👉 在线浏览](https://js.skaa.tk)
+**千万不要删除 `show.ts` 开头的注释！！！**
 
-## 🥇 给贡献者看
+## 给阿岳看
 
-在 `src/smart` 中创建 `.ts` 文件，即可创建一个小技巧
-
-## ❓ 给阿岳看
-
-`src/smart` 中的 `.ts` 文件中可以写上以下注释（建议写在开头），即可完善小技巧的相关信息
-
-```ts
-// B 站视频 BV 号
-// BVxxxxxxx
-```
+发布 B 站视频后，运行 `pnpm archive` 进行归档

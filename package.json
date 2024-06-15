@@ -1,16 +1,13 @@
 {
+  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "new": "tsx cli.ts new",
+    "archive": "tsx cli.ts archive"
   },
   "devDependencies": {
-    "normalize.css": "^8.0.1",
-    "sass": "^1.69.5",
-    "typescript": "^5.0.2",
-    "vite": "^4.4.5"
-  },
-  "dependencies": {
-    "highlight.js": "^11.9.0"
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.14.2",
+    "inquirer": "^9.2.23",
+    "tsx": "^4.15.5"
   }
 }
